@@ -1,0 +1,24 @@
+{
+  "port": 8080,
+  "restricted_extension": "exe",
+  "server_list": [
+    {
+      "domain": "www.server1.com",
+      "name": "was",
+      "root": "/src/main/resources/server1",
+      "index": "index.html",
+      "403": "/403.html",
+      "404": "/404.html",
+      "500": "/500.html"
+    },
+    {
+      "domain": "www.server2.com",
+      "name": "was2",
+      "root": "/src/main/resources/server2",
+      "index": "index.html",
+      "403": "/403.html",
+      "404": "/404.html",
+      "500": "/500.html"
+    }
+  ]
+}
